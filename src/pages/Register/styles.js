@@ -13,7 +13,7 @@ export const Title = styled.Text`
     width: 100%;
     height: 100%;
     left: 40%;
-    top: 40px
+    top: 5%;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -26,7 +26,7 @@ export const TitleD = styled.Text`
     width: 100%;
     height: 100%;
     left: 27%;
-    top: 69px;
+    top: 9%;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -50,7 +50,7 @@ export const InputName = styled.View`
 
 export const ContainerIcon1 = styled.View`
   position: absolute;
-    width: 10%;
+    width: 20%;
     left: 0.5%;
     top: 12%;
     bottom: 0%;
@@ -61,7 +61,7 @@ export const ContainerIcon1 = styled.View`
 
 export const ContainerIcon2 = styled.View`
   position: absolute;
-    width: 10%;
+    width: 20%;
     left: 92%;
     top: 12%;
     bottom: 0%;
@@ -125,7 +125,7 @@ export const ContainerD = styled.View`
   position: absolute;
   width: 70%;
   height: 6%;
-  left: 35px;
+  left: 9%;
   top: 47%;
 `;
 
@@ -133,8 +133,8 @@ export const TituloT = styled.Text`
   position: absolute;
   width: 100%;
   height: 100%;
-  left: 28px;
-  top: 5px;
+  left: 10%;
+  top: 10%;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -144,7 +144,7 @@ export const TituloT = styled.Text`
 
 
 export const Botao = styled.TouchableOpacity`
-  margin-top: 350px;
+  margin-top: 85%;
   width: 80%;
   height: 8%;
   justify-content: center;
@@ -155,8 +155,8 @@ export const Botao = styled.TouchableOpacity`
 
 export const BotaoText = styled.Text`
     position: absolute;
-    left: 39.37%;
-    right: 39.05%;
+    width: 100%;
+    height: 100%;
     top: 30%;
     bottom: 30%;
     font-style: normal;
@@ -170,20 +170,18 @@ export const BotaoText = styled.Text`
 
 export const Divisor = styled.View`
   position: absolute;
-  width: 150px;
-  height: 0px;
-  left: 35px;
-  top: 642px;
+  width: 35%;
+  left: 10%;
+  top: 79%;
   background: #1D1617;
   border: 1px solid #DDDADA;
 `;
 
 export const DivisorD = styled.View`
   position: absolute;
-  width: 150px;
-  height: 0px;
-  left: 230px;
-  top: 642px;
+  width: 35%;
+  left: 55.5%;
+  top: 79%;
   background: #1D1617;
   border: 1px solid #DDDADA;
 
@@ -192,9 +190,8 @@ export const DivisorD = styled.View`
 export const TituloOu = styled.Text`
   position: absolute;
   width: 100%;
-  height: 18px;
-  left: 200px;
-  top: 632px;
+  left: 48.5%;
+  top: 78%;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -206,25 +203,22 @@ export const TituloOu = styled.Text`
 
 export const Icone = styled.Image`
   position: absolute;
-  left: 150px;
-  right: 50px;
-  top: 675px ;
+  left: 35%;
+  top: 84%;
 `;
 
 export const IconeD = styled.Image`
   position: absolute;
-  left: 230px;
-  right: 50px;
-  top: 675px;
-
+  left: 55%;
+  top: 84%;
 `;
 
 export const TitleT = styled.Text`
     position: absolute;
     width: 100%;
     height: 100%;;
-    top: 751px;
-    left: 90px;
+    top: 92.5%;
+    left: 22%;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -236,15 +230,15 @@ export const BotaoLogin = styled.TouchableOpacity`
     position: absolute;
     width: 100%;
     height: 100%;
-    left: 255px;
-    top: 753px;
+    left: 62%;
+    top: 92.8%;
 `;
 
 export const BotaoTextL = styled.Text`
     position: absolute;
     width: 100%;
     height: 100%;
-    left: 30px;
+    left: 8%;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;

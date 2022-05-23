@@ -9,10 +9,10 @@ export const Container = styled.View`
 
 export const Imagem = styled.Image`
     position: absolute;
-    width: 375px;
+    width: 90%;
     height: 350px;
     left: 5%;
-    top: 0px;
+    top: 0%;
 ;
 `;
 
@@ -20,7 +20,7 @@ export const Title1 = styled.Text`
     position: absolute;
     width: 100%;
     height: 100%;
-    top: 380px;
+    top: 47%;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -31,9 +31,9 @@ export const Title1 = styled.Text`
 
 export const Title2 = styled.Text`
     position: absolute;
-    width: 229px;
-    height: 18px;
-    top: 415px;
+    width: 100%;
+    height: 100%;
+    top: 51%;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -186,7 +186,7 @@ export const TituloCM = styled.Text`
 `;
 
 export const Botao = styled.TouchableOpacity`
-  margin-top: 700px;
+  margin-top: 162%;
   width: 80%;
   height: 8%;
   justify-content: center;
@@ -199,7 +199,7 @@ export const BotaoText = styled.Text`
   width: 100%;
   height: 24px;
   left: 42%;
-  top: 5px;
+  top: 10%;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;

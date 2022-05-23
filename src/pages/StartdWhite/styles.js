@@ -10,7 +10,7 @@ export const Container = styled.View`
 
 export const Imagem = styled.Image`
   position: absolute;
-  top: 371px;
+  top: 46%;
   align-items: center;
 `;
 
@@ -18,8 +18,8 @@ export const Title = styled.Text`
     position: absolute;
     width: 100%;
     height: 100%;
-    left: 116px;
-    top: 421px;
+    left: 28%;
+    top: 52%;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -28,7 +28,7 @@ export const Title = styled.Text`
 `;
 
 export const Botao = styled.TouchableOpacity`
-  margin-top: 700px;
+  margin-top: 162%;
   width: 80%;
   height: 60px;
   justify-content: center;
@@ -40,7 +40,7 @@ export const Botao = styled.TouchableOpacity`
 export const BotaoText = styled.Text`
   width: 100%;
   height: 24px;
-  left: 120px;
+  left: 36%;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;

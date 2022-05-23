@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Container, Title, TitleD, Imagem, Botao, Icones, TitleT } from "./styles";
+import { Container, Title, TitleD, Imagem, Botao } from "./styles";
 
 import { AntDesign } from '@expo/vector-icons';
 
@@ -12,8 +12,7 @@ export default function ImproveQuality ({ navigation }) {
              <Imagem
                 source={require('../ImproveQuality/Group.png')}
             />
-            <Title>Improve Sleep</Title>
-            <TitleT>Quality</TitleT>
+            <Title>Improve Sleep Quality</Title>
             <TitleD>Improve the quality of your sleep with us, good quality sleep can bring a good mood in the morning</TitleD>
             <Botao 
             onPress={() => navigation.navigate('Register')}

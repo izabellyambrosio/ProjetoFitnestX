@@ -14,7 +14,7 @@ export default function Welcome ({ navigation }) {
             <Title>Welcome, Stefani</Title>
             <TitleD>You are all set now, let’s reach your goals together with us</TitleD>
             <Botao 
-            onPress={() => navigation.navigate('GetBurn')}
+            onPress={() => navigation.navigate('StartdWhite')}
             >
                 <TitleButton>Go To Home</TitleButton>
             </Botao>

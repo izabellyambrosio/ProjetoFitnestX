@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Container, Title, TitleD, Imagem, Botao, Divisor } from "./styles";
+import { Container, Title, TitleD, Imagem, Botao } from "./styles";
 
 import { AntDesign } from '@expo/vector-icons';
 
@@ -14,8 +14,7 @@ export default function TrackObjective ({ navigation }) {
             />
             <Title>Track Your Goal</Title>
             <TitleD>Don't worry if you have trouble determining your goals, We can help you determine your goals and track your goals</TitleD>
-            
-            <Divisor></Divisor>
+
             
             <Botao 
             onPress={() => navigation.navigate('GetBurn')}

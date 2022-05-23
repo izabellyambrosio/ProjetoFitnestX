@@ -20,7 +20,7 @@ export const Title = styled.Text`
     width: 100%;
     height: 100%;
     left: 10%;
-    top: 500px;
+    top: 62%;
 
     font-style: normal;
     font-weight: bold;
@@ -31,10 +31,10 @@ export const Title = styled.Text`
 
 export const TitleD = styled.Text`
     position: absolute;
-    width: 315px;
+    width: 75.5%;
     height: 100%;
     left: 10%;
-    top: 550px;
+    top: 68%;
 
     font-style: normal;
     font-weight: normal;
@@ -44,7 +44,7 @@ export const TitleD = styled.Text`
 `;
 
 export const Botao = styled.TouchableOpacity`
-  margin-top: 700px;
+  margin-top: 165%;
   width: 16%;
   height: 8%;
   left: 28%;
